@@ -6,7 +6,7 @@ let idCounter = 1;
 // Criar
 const addTask = (title) => {
     const task = createTask(idCounter++, title);
-    tasks-push(task);
+    tasks.push(task);
     return task;
 };
 
