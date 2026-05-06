@@ -1,6 +1,6 @@
 //essa é a rota
 
-const taskController = require('../controllers/taskController');
+const taskController = require('../controllers/tasksControllers');
 
 module.exports = (req, res) => {
     const url = req.url;

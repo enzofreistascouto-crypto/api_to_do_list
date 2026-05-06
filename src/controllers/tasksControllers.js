@@ -10,7 +10,7 @@ const getRequestBody = (req) => {
         req.on('data', chunk => {
         body += chunk.toString();
         });
-        req-on('end', () => {
+        req.on('end', () => {
         resolve(JSON.parse(body));
         });
     });
